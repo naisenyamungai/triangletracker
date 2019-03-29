@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    
+html,body{
+    height:100%;
+    overflow:scroll;
+ 
+    }
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-size:cover;
+    background-color:rgba(52,74,113,1);
+    background-image:url(jpg);
+    background-repeat:no-repeat;
+    background: size 100%;;
+    overflow:scroll; 
+    background-position: center;
+    color:whitesmoke;
+    
+} 
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    
+}
