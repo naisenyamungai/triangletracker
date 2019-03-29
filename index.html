@@ -2,9 +2,26 @@
 <html>
     <head>
         <title>Triangle Tracker </title>
-        <link href="triangle.css" rel="stylesheet" type="text/css">
-        <script src="triangle.js"></script>
+        <link href="template.css" rel="stylesheet" type="text/css">
+        <script src="template.js"></script>
         <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
         
     </head>
     <body>
+        <div class="grid">
+            <div class="home">
+                <h1 style="text-align:left;">HOME</h1>
+            </div>
+            <div class="headerTriangle"><p style="text-align:center;">TRIANGLE  TRACKER</p></div>
+            <div class = "triangletracker">
+                <form NAME = "action " METHOD ="GET">
+                    <p>SIDE  A</p>
+                    <input type = "text" name = "sideA" placeholder = "Enter Side A's Length" >
+                    <p>SIDE  B</p>
+                    <input type = "text" name = "sideB" placeholder = "Enter Side B's length" >
+                    <p>SIDE  C</p>
+                    <input type = "text" name = "sideC" placeholder = "Enter Side C's length" >
+                    <br>
+                    <button id="submit" type = "button" name = "submit" onclick = "scanInput()">Submit</button>
+                </form>
+            </div>
