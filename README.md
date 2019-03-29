@@ -35,7 +35,7 @@ EXPECTED OUTPUT
 naisenyamungai@gmail.com
 
 ## To access this webpage open below "Edit Here" link
-https://naisenyamungai.github.io/naisenyaPortfolio/index.html
+https://naisenyamungai.github.io/triangletracker/
 
 ## [License](https://naisenyamungai.github.io/naisenyaPortfolio/LICENSE.md)
 MIT © [Naisenya Mungai ](https://github.com/naisenyamungai)
