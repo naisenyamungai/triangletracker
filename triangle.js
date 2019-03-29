@@ -9,6 +9,7 @@ function scanInput(){var triangleSides = [];
     triangleSides.push(sideA,sideB, sideC);
     triangleSides.sort((a,b) => a - b);
     
+    /**The algorithm below will check the type of triangle based on the conditions using if, else if and else statements */
     if(triangleSides[0] + triangleSides[1] < triangleSides[2]){
        text = triangleSides + " " + "is NOT a triangle";
     }
