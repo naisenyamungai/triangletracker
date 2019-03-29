@@ -133,7 +133,7 @@ h1{
     bottom:0px;
     align-items: center;
     margin-left: 20%;
-    background-color:rgba(0,0,0,0.5) 
+    background-color:rgba(0,0,0,0.5); 
 }
 
 .what h1{
@@ -143,3 +143,90 @@ h1{
 .what p{
     margin-left: 15px;
 }
+
+.what ul{
+    margin-left: 15px;
+}
+
+.what ul li{
+    margin-left: 25px;
+}
+.Equilateral h1{
+    text-align:center;
+}
+
+.Equilateral p{
+    margin-left: 15px;
+}
+
+.Isosceles h1{
+    text-align:center;
+}
+
+.Isosceles p{
+    margin-left:15px;
+}
+
+.Scalene h1{
+    text-align: center;
+}
+
+.Scalene p{
+    margin-left:15px;
+}
+
+.Equilateral{
+    grid-column: span 2 / auto;
+    width:800px;
+    padding:0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height:200px;
+    bottom:0px;
+    align-items: center;
+    margin-left: 20%;
+    background-color:rgba(0,0,0,0.5); 
+}
+
+.Isosceles{
+    grid-column: span 2 / auto;
+    width:800px;
+    padding:0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height:200px;
+    bottom:0px;
+    align-items: center;
+    margin-left: 20%;
+    background-color:rgba(0,0,0,0.5); 
+}
+
+.Scalene{
+    grid-column: span 2 / auto;
+    width:800px;
+    padding:0px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height:200px;
+    bottom:0px;
+    align-items: center;
+    margin-left: 20%;
+    background-color:rgba(0,0,0,0.5);
+}
+
+ 
+#footer{
+    background-color:#000;
+    position:absolute;
+    height:50px;
+    margin-top:-200px;
+    clear:both;
+    bottom:0;
+    width:100%;
+    font-family: 'ZCOOL XiaoWei', serif;
+    }
+    
+.footer-menu{
+      float:left;
+      text-align:center;
+    }
