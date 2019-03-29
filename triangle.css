@@ -6,8 +6,9 @@
 html,body{
     height:100%;
     overflow:scroll;
- 
+
     }
+ /* stylig for body, .grid .home . triangle tracker where background and sisplay is styled*/
 
 body{
     margin:0;
@@ -63,9 +64,7 @@ body{
     color:#fff;
     font-family: 'ZCOOL XiaoWei', serif;
     margin-left: 50%;
-   
-    
-    
+      
 }
 
 #display{
@@ -76,10 +75,7 @@ body{
     font-family: 'ZCOOL XiaoWei', serif;
     align-items: center;
     align-content: center;
-    margin-left:10%;
-  
-    
-    
+    margin-left:10%;   
 }
 
 h1{
@@ -90,12 +86,15 @@ h1{
     font-size:22px;
 }
 
+
 .triangletracker p{
     margin:0;
     padding:0;
     font-weight:bold;
     margin-left: 8px;
 }
+
+
 .triangletracker input[type = "text"]{
     border:none;
     border-bottom:1px solid #fff;
@@ -107,6 +106,8 @@ h1{
     margin-bottom:20px;
     margin-left: 8px;
 }
+
+
 #submit{
     border:none;
     outline:none;
@@ -117,11 +118,15 @@ h1{
     border-radius:40px;
     margin-left: 8px;
 }
+
+
 .triangletracker input[type="submit"]:hover{
     cursor:pointer;
     background:#ffc107;
     color:#000;
 }
+
+/* p, h1, ul li tags are styled based on size, font, weight and color properties required*/
 
 .what{
     grid-column: span 2 / auto;
@@ -136,44 +141,56 @@ h1{
     background-color:rgba(0,0,0,0.5); 
 }
 
+
 .what h1{
     text-align: center;
 }
+
 
 .what p{
     margin-left: 15px;
 }
 
+
 .what ul{
     margin-left: 15px;
 }
 
+
 .what ul li{
     margin-left: 25px;
 }
+
+
 .Equilateral h1{
     text-align:center;
 }
+
 
 .Equilateral p{
     margin-left: 15px;
 }
 
+
 .Isosceles h1{
     text-align:center;
 }
+
 
 .Isosceles p{
     margin-left:15px;
 }
 
+
 .Scalene h1{
     text-align: center;
 }
 
+
 .Scalene p{
     margin-left:15px;
 }
+
 
 .Equilateral{
     grid-column: span 2 / auto;
