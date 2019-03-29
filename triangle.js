@@ -5,6 +5,7 @@ function scanInput(){var triangleSides = [];
     var sideC = parseInt(document.getElementsByName("sideC")[0].value);
     var text = '';
 
+    /**These commands will push the inputs into the array then sort the array in ascending order */
     triangleSides.push(sideA,sideB, sideC);
     triangleSides.sort((a,b) => a - b);
     
