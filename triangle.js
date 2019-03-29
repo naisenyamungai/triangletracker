@@ -15,7 +15,7 @@ function scanInput(){var triangleSides = [];
     }
     else if(triangleSides[0] % triangleSides[1] === 0 && triangleSides[0] % triangleSides[2] === 0 ){
         text = triangleSides + " " + "is an EQUILATERAL Triangle";
-        document.getElementById("image").innerHTML="<img src='images/equilateral.jpg' alt='Equilateral'>";
+        document.getElementById("image").src = "images/equilateral.jpg";
     }
     else if((triangleSides[0] - triangleSides[1] === 0 && triangleSides[0] - triangleSides[2] !== 0) && (triangleSides[0] + triangleSides[1] > triangleSides[2])){
         text = triangleSides + " " + "is an ISOSCELES Triangle";
