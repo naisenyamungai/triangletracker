@@ -1,9 +1,10 @@
 function scanInput(){var triangleSides = [];
+    /**The below and above lines will declare the array and variables to be used as inputs */
     var sideA = parseInt(document.getElementsByName("sideA")[0].value);
     var sideB = parseInt(document.getElementsByName("sideB")[0].value);
     var sideC = parseInt(document.getElementsByName("sideC")[0].value);
     var text = '';
-    
+
     triangleSides.push(sideA,sideB, sideC);
     triangleSides.sort((a,b) => a - b);
     
