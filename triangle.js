@@ -21,5 +21,6 @@ function scanInput(){var triangleSides = [];
     }
     else{text = "Check on special Triangles like Right Angled Triangle & Obtuse Triangle";
 }
+/** display the content on html page */
     document.getElementById("display").innerHTML=text;
 }
