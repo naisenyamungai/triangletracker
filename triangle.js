@@ -13,11 +13,17 @@ function scanInput(){var triangleSides = [];
     if(triangleSides[0] + triangleSides[1] < triangleSides[2]){
        text = triangleSides + " " + "is NOT a triangle";
     }
-    else if(triangleSides[0] % triangleSides[1] === 0 && triangleSides[0] % triangleSides[2] === 0 ){text = triangleSides + " " + "is an EQUILATERAL Triangle";
+    else if(triangleSides[0] % triangleSides[1] === 0 && triangleSides[0] % triangleSides[2] === 0 ){
+        text = triangleSides + " " + "is an EQUILATERAL Triangle";
+        document.getElementById("image").innerHTML="<img src='images/equilateral.jpg' alt='Equilateral'>";
     }
-    else if((triangleSides[0] - triangleSides[1] === 0 && triangleSides[0] - triangleSides[2] !== 0) && (triangleSides[0] + triangleSides[1] > triangleSides[2])){text = triangleSides + " " + "is an ISOSCELES Triangle";
+    else if((triangleSides[0] - triangleSides[1] === 0 && triangleSides[0] - triangleSides[2] !== 0) && (triangleSides[0] + triangleSides[1] > triangleSides[2])){
+        text = triangleSides + " " + "is an ISOSCELES Triangle";
+        document.getElementById("image").innerHTML="<img src='images/isosceles.jpg' alt='Isosceles'>";
     }
-    else if(triangleSides[0] - triangleSides[1] - triangleSides[2] !== 0 && triangleSides[0] + triangleSides[1] > triangleSides[2]){text = triangleSides + " " + "is a SCALENE Triangle";
+    else if(triangleSides[0] - triangleSides[1] - triangleSides[2] !== 0 && triangleSides[0] + triangleSides[1] > triangleSides[2]){
+        text = triangleSides + " " + "is a SCALENE Triangle";
+        document.getElementById("image").innerHTML="<img src='images/scalene.jpg' alt='Scalene'>";
     }
     else{text = "Check on special Triangles like Right Angled Triangle & Obtuse Triangle";
 }
