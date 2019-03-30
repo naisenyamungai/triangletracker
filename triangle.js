@@ -17,7 +17,7 @@ function scanInput(){var triangleSides = [];
         text = triangleSides + " " + "is an EQUILATERAL Triangle! <br><br><br><br>For an Equilateral Triangle all the three sides are of Equal Length and the three angles are all 60 degrees.";
     
     }
-    else if((triangleSides[0] - triangleSides[1] === 0 && triangleSides[0] - triangleSides[2] !== 0) && (triangleSides[0] + triangleSides[1] > triangleSides[2])){
+    else if((triangleSides[0] - triangleSides[1] === 0 && triangleSides[0] - triangleSides[2] !== 0) && (triangleSides[0] + triangleSides[1] > triangleSides[2]) || (triangleSides[1] - triangleSides[2] === 0 && triangleSides[0] - triangleSides[1] !== 0) && (triangleSides[0] + triangleSides[1] > triangleSides[2])){
         text = triangleSides + " " + "is an ISOSCELES Triangle ! <br><br><br><br> Isosceles triangle has two equal sides, and the sum of the two sides must always be greater than the largest side." ;
     
     }
